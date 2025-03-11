@@ -14,11 +14,10 @@ from min_dalle import MinDalle
 model = MinDalle(is_mega=True, is_reusable=True)
 
 # Commented out IPython magic to ensure Python compatibility.
-# %%time
+# %%time 
+ text = "birds swimming in blood"
+ seed = 6
+ grid_size = 2
 # 
-# text = "birds swimming in blood"
-# seed = 6
-# grid_size = 2
-# 
-# display(model.generate_image(text, seed, grid_size))
+ display(model.generate_image(text, seed, grid_size))
 
